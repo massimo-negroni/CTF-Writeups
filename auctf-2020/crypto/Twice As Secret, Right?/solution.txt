@@ -1,7 +1,7 @@
 The chall alone gives us a mysterious wav file.
 Opening it with a tool like Sonic Visualiser to view audio files.
 
-![alt text](/wav-file.png)
+![Screenshot](https://raw.githubusercontent.com/arcadia11/CTF-Writeups/master/auctf-2020/crypto/Twice%20As%20Secret%2C%20Right%3F/wav-file.png)
 
 If we zoom it, we immediately notice that the file is composed of an alternation of longer and shorter sounds.
 So easy to think it's a Morse code.
