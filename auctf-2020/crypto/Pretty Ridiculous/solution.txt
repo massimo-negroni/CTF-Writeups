@@ -1,0 +1,9 @@
+The chall gave ciphertext an array of integers and the values (n, e) = (627585038806247, 65537).
+This is clearly a public key of RSA and it is noted that the module n is particularly short, 
+therefore it can most likely be factored in a short time.
+So with the factors p and q it is possible to calculate phi and therefore d.
+Finally, only a simple equation remains to be calculated:
+m = c ** d% n
+
+
+
