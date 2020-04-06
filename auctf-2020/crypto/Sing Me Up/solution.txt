@@ -1,8 +1,0 @@
-The challenge gives us the values (n, e) and a ciphertext composed of an array of integers.
-(n, e) is clearly a public RSA key.
-n is too large to factor in an acceptable time so we have to change our strategy.
-We have to solve the equation m = c ** d % n and presumably every integer in the array is a character of the flag, 
-which therefore must be printable.
-In the equation we only need the value of m but we know it must be a printable character, 
-so we have a small range of possibilities to try until the equation is correct.
-So that's the character of the flag.
